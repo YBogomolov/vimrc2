@@ -28,7 +28,7 @@ some plugins depend on external installations, consider installing them:
 * google 'XXX install ctags' where XXX should be your OS. [read more on vim and ctags](http://andrew.stwrt.ca/posts/vim-ctags/)
 * Install [Ag](https://github.com/ggreer/the_silver_searcher#installing)
 
-javascript related (requires nodeJS):
+* javascript related (requires nodeJS):
 * tern_for_vim: cd into ~/.vim_runtime2/sources/languages/tern_for_vim/ and then 'npm install'
 * jshint for syntastic: 'npm install -g jshint'
 
@@ -252,7 +252,7 @@ Vimscript mappings:
 
 * [Folding in Vim](http://amix.dk/blog/post/19132#Folding-in-Vim)
 
-### Why the fork?
+# Why the fork?
 
 * Restructured plugins directories into: color-schemes  core  languages  snippets
 * Use [ctrlp.vim](https://github.com/kien/ctrlp.vim) as the default for MRU and Buffer explorer

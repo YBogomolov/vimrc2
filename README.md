@@ -25,8 +25,8 @@ Simply just do a git rebase!
 
 some plugins depend on external installations, consider installing them:
 
-* google 'XXX install ctags' where XXX should be your OS. [read more on vim and ctags] (http://andrew.stwrt.ca/posts/vim-ctags/)
-* Install [Ag] (https://github.com/ggreer/the_silver_searcher#installing)
+* google 'XXX install ctags' where XXX should be your OS. [read more on vim and ctags](http://andrew.stwrt.ca/posts/vim-ctags/)
+* Install [Ag](https://github.com/ggreer/the_silver_searcher#installing)
 
 javascript related (requires nodeJS):
 * tern_for_vim: cd into ~/.vim_runtime2/sources/languages/tern_for_vim/ and then 'npm install'
@@ -55,7 +55,7 @@ Here is a partial list of the included plugins. Read the docs of these plugins t
 
 ## How to include your own stuff?
 
-After you have installed the setup you can create **~/.vim_runtime2/vimrcs/my_configs.vim** to fill in any configurations that are important for you. For instance, [here is see my personal, opinionated configuration] (https://gist.github.com/pazams/216856a04eabe1cd8bda)
+After you have installed the setup you can create **~/.vim_runtime2/vimrcs/my_configs.vim** to fill in any configurations that are important for you. For instance, [here is see my personal, opinionated configuration](https://gist.github.com/pazams/216856a04eabe1cd8bda)
 
 You can also install your own plugins, for instance, via pathogen we can install [vim-rails](https://github.com/tpope/vim-rails):
 
@@ -79,15 +79,15 @@ Managing the [NERD Tree](https://github.com/scrooloose/nerdtree) plugin:
     NERDTreeFromBookmark:  <leader>nb
     NERDTreeFind:          <leader>nf 
 
-[ag.vim] (https://github.com/rking/ag.vim) plugin:
+[ag.vim](https://github.com/rking/ag.vim) plugin:
 
     Ag: <leader>g
 
-[gitgutter] (https://github.com/airblade/vim-gitgutter) plugin:
+[gitgutter](https://github.com/airblade/vim-gitgutter) plugin:
 
     GitGutterToggle: <leader>b
 
-[tagbar] (https://github.com/majutsushi/tagbar) plugin:
+[tagbar](https://github.com/majutsushi/tagbar) plugin:
 
     TagbarToggle: <F8> 
 

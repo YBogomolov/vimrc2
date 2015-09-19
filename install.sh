@@ -8,7 +8,7 @@ source ~/.vim_runtime2/vimrcs/plugins_config.vim
 source ~/.vim_runtime2/vimrcs/extended.vim
 
 try
-source ~/.vim_runtime2/my_configs.vim
+source ~/.vim_runtime2/vimrcs/my_configs.vim
 catch
 endtry' > ~/.vimrc
 

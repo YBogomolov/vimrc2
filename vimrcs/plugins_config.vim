@@ -1,7 +1,3 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
@@ -12,20 +8,11 @@ call pathogen#infect('~/.vim_runtime2/sources/languages/{}')
 call pathogen#infect('~/.vim_runtime2/sources/color-schemes/{}')
 call pathogen#helptags()
 
-""""""""""""""""""""""""""""""
-" => YankRing
-""""""""""""""""""""""""""""""
-if has("win16") || has("win32")
-    " Don't do anything
-else
-    let g:yankring_history_dir = '~/.vim_runtime2/temp_dirs/'
-endif
-
 
 """"""""""""""""""""""""""""""
 " => CTRL-P
 """"""""""""""""""""""""""""""
-let g:ctrlp_working_path_mode = 'r'
+let g:ctrlp_working_path_mode = 'ra'
 
 let g:ctrlp_map = '<c-f>'
 map <leader>j :CtrlP<cr>
@@ -42,24 +29,20 @@ map <leader>f :CtrlPMRU<cr>
 
 
 """"""""""""""""""""""""""""""
-" => bufExplorer via CTRL-P plugin
+" => buffer explorer via CTRL-P plugin
 """"""""""""""""""""""""""""""
 map <leader>o :CtrlPBuffer<cr>
 
 
 """"""""""""""""""""""""""""""
-" => ZenCoding
+" => tags explorer via CTRL-P plugin
 """"""""""""""""""""""""""""""
-" Enable all functions in all modes
-let g:user_zen_mode='a'
-
+nnoremap <leader>h :CtrlPTag<cr>
 
 """"""""""""""""""""""""""""""
-" => snipMate (beside <TAB> support <CTRL-j>)
+" => tagbar (ctags)
 """"""""""""""""""""""""""""""
-ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
-snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
-
+nmap <F8> :TagbarToggle<cr>
 
 """"""""""""""""""""""""""""""
 " => Vim grep

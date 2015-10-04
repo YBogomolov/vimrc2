@@ -21,18 +21,23 @@ Simply just do a git rebase!
     cd ~/.vim_runtime2
     git pull --rebase
 
-## plugin related installations
+## post installation instructions (optional)
 
-some plugins depend on external installations, consider installing them:
+### some plugins depend on external installations, consider installing them:
 
 * google 'XXX install ctags' where XXX should be your OS. [read more on vim and ctags](http://andrew.stwrt.ca/posts/vim-ctags/)
 * Install [Ag](https://github.com/ggreer/the_silver_searcher#installing)
 
-* javascript related (requires nodeJS):
+### javascript related (requires nodeJS):
 * tern_for_vim: cd into ~/.vim_runtime2/sources/languages/tern_for_vim/ and then 'npm install'
 * jshint for syntastic: 'npm install -g jshint'
 
+### windows
 * windows users should consider installing python, as some plugins require it 
+
+### Git
+To make vimdiff be the default merge tool across all your repos:
+git config --global merge.tool vimdiff
 
 ## Included Plugins
 
@@ -260,5 +265,5 @@ Vimscript mappings:
 * replaced yankring  with yankstack 
 * replaced snipmate  with ultisnips   
 * replaced taglist   with tagbar
-* added 'plugin related installations' instructions to README
+* added 'post installation instructions' (plugin related installations) to README
 * more js oriented (tern plugin, and more to come)

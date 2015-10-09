@@ -23,7 +23,7 @@ Simply just do a git rebase!
 
 ## post installation instructions (optional)
 
-### some plugins depend on external installations, consider installing them:
+### some plugins require additional installation steps, consider installing them:
 
 * google 'XXX install ctags' where XXX should be your OS. [read more on vim and ctags](http://andrew.stwrt.ca/posts/vim-ctags/)
 * Install [Ag](https://github.com/ggreer/the_silver_searcher#installing)
@@ -260,10 +260,11 @@ Vimscript mappings:
 # Why the fork?
 
 * Restructured plugins directories into: color-schemes  core  languages  snippets
+* Added neovim bindings
 * Use [ctrlp.vim](https://github.com/kien/ctrlp.vim) as the default for MRU and Buffer explorer
 * replaced zencoding with emmet
 * replaced yankring  with yankstack 
 * replaced snipmate  with ultisnips   
 * replaced taglist   with tagbar
 * added 'post installation instructions' (plugin related installations) to README
-* more js oriented (tern plugin, and more to come)
+* more js oriented (tern_for_vim, vim-javascript, and more to come)

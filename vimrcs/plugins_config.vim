@@ -2,10 +2,10 @@
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
 """"""""""""""""""""""""""""""
-call pathogen#infect('~/.vim_runtime2/sources/core/{}')
-call pathogen#infect('~/.vim_runtime2/sources/snippets/{}')
-call pathogen#infect('~/.vim_runtime2/sources/languages/{}')
-call pathogen#infect('~/.vim_runtime2/sources/color-schemes/{}')
+call pathogen#infect('~/.vim_runtime2/sources/include/core/{}')
+call pathogen#infect('~/.vim_runtime2/sources/include/snippets/{}')
+call pathogen#infect('~/.vim_runtime2/sources/include/languages/{}')
+call pathogen#infect('~/.vim_runtime2/sources/include/color-schemes/{}')
 call pathogen#helptags()
 
 

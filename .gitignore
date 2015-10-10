@@ -1,6 +1,6 @@
 temp_dirs/undodir*
-sources_non_forked/ack.vim/.netrwhist
 temp_dirs/yankring_history_v2.txt
 vimrcs/my_configs.vim
+sources/exclude
 tags
 .DS_Store

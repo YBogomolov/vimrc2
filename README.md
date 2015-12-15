@@ -44,9 +44,9 @@ git config --global merge.tool vimdiff
 Here is a partial list of the included plugins. Read the docs of these plugins to understand them better. 
 
 * [pathogen.vim](https://github.com/tpope/vim-pathogen): Manages the runtime path of the plugins
-* [YankStack](https://github.com/maxbrunsfeld/vim-yankstack):  A lightweight implementation of emacs's kill-ring for vim 
 * [UltiSnips](https://github.com/SirVer/ultisnips): UltiSnips - The ultimate snippet solution for Vim
-* [NERD Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for vim
+* [NERDTree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for vim
+* [NERDTree-tabs](https://github.com/jistr/vim-nerdtree-tabs): NERDTree and tabs together in Vim, painlessly 
 * [ag.vim](https://github.com/rking/ag.vim): A much faster Ack
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): Fuzzy file, buffer, mru and tag finder. In my config it's mapped to `<Ctrl+F>`, or <leader>j
 * [vim-airline](https://github.com/bling/vim-airline): Lean & mean status/tabline for vim that's light as air (replacing powerline)

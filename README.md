@@ -263,8 +263,9 @@ Vimscript mappings:
 * Added neovim bindings
 * Use [ctrlp.vim](https://github.com/kien/ctrlp.vim) as the default for MRU and Buffer explorer
 * replaced zencoding with emmet
-* replaced yankring  with yankstack 
+* yankring  (considered yankstack, but decided this job is for [OS clipboard managers](http://unix.stackexchange.com/questions/15497/are-there-any-advanced-clipboard-managers-for-linux) )
 * replaced snipmate  with ultisnips   
 * replaced taglist   with tagbar
+* added nerdtree-tabs
 * added 'post installation instructions' (plugin related installations) to README
 * more js oriented (tern_for_vim, vim-javascript, and more to come)

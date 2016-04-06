@@ -102,3 +102,14 @@ nnoremap <silent> <leader>l :call SyntasticCheckCoffeescript()<cr>
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <silent> <leader>b :GitGutterToggle<cr>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => YouCompleteMe
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set <F12>=<C-v><F12>
+set <F10>=<C-v><F10>
+
+nnoremap <leader>yr :YcmRestartServer<cr>
+nnoremap <F12> :YcmCompleter GoToDefinition<cr>
+nnoremap <F10> :YcmCompleter GoToReferences<cr>

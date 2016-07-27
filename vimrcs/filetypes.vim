@@ -31,7 +31,8 @@ au FileType javascript setl nocindent
 function! JavaScriptFold() 
     setl foldmethod=syntax
     setl foldlevelstart=1
-    syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
+    " this line breaks es6 template strings 
+    " syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
 
     function! FoldText()
         return substitute(getline(v:foldstart), '{.*', '{...}', '')

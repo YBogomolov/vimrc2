@@ -65,8 +65,9 @@ function! UltiSnips#map_keys#MapKeys()
     exec "inoremap <silent> " . g:UltiSnipsListSnippets . " <C-R>=UltiSnips#ListSnippets()<cr>"
     exec "snoremap <silent> " . g:UltiSnipsListSnippets . " <Esc>:call UltiSnips#ListSnippets()<cr>"
 
-    snoremap <silent> <BS> <c-g>c
+" removed the commented rows out of the function
     snoremap <silent> <DEL> <c-g>c
-    snoremap <silent> <c-h> <c-g>c
     snoremap <c-r> <c-g>"_c<c-r>
 endf
+" snoremap <silent> <c-h> <c-g>c
+" snoremap <silent> <BS> <c-g>c

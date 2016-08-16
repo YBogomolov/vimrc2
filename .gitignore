@@ -5,3 +5,4 @@ sources/exclude
 sources/include/core/YouCompleteMe/
 tags
 .DS_Store
+.vim-session-vimrc

@@ -24,7 +24,7 @@ au FileType python map <buffer> <leader>D ?def
 """""""""""""""""""""""""""""""
 autocmd FileType javascript setlocal omnifunc=tern#Complete
 
-au FileType javascript call JavaScriptFold()
+" au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
 au FileType javascript setl nocindent
 
